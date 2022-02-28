@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on goGirl, an app for solo female travelers, for my third group project in coding bootcamp
+- 🔭 I’m currently working on goGirl, an app for solo female travelers 
 - 🌱 I’m currently learning REACT and graphQL
 - 👯 I’m looking to collaborate on full stack projects! 
 - 🤔 I’m looking for help with understanding Redux ☺️
