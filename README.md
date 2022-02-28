@@ -1,5 +1,14 @@
 ### Hi there 👋
 
+- 🔭 I’m currently working on goGirl, an app for solo female travelers, for my third group project in coding bootcamp
+- 🌱 I’m currently learning REACT and graphQL
+- 👯 I’m looking to collaborate on full stack projects! 
+- 🤔 I’m looking for help with understanding Redux ☺️
+- 💬 Ask me about my career goals 
+- 📫 How to reach me: stephfajardo@gatech.edu
+- 😄 Pronouns: she/her
+- ⚡ Fun fact: I have two bichons! 
+
 <!--
 **stephtf/stephtf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
