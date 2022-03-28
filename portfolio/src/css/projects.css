@@ -23,3 +23,35 @@
 li {
     list-style: none;
   }
+
+  /* tablet size */
+@media screen and (min-width: 505px) {
+  .project-res {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 25px;
+      flex-flow: row wrap;
+  }
+
+  .project-thumbnails {
+    width: 275px;
+    margin: 18px;
+  }
+
+  .project-hero {
+    width: 100%;
+  }
+
+  .project-titles {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+
+/* desktop size */
+
+@media screen and (min-width: 1000px) {
+
+}

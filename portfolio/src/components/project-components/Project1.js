@@ -7,30 +7,31 @@ const Project1 = () => {
             <Header />
             <div className='body-container'>
                 <h1 className='mt-4 mb-4'>Go Girl</h1>
-                <img className='project-thumbnails' src='./images/mm-landing.png' alt='the mentorMonkey landing page'/>
+                <img className='project-hero' src='./images/gogirl-hero.png' alt='the Go Girl dashboard'/>
                 <h2 className='mt-4'>Project Description</h2>
-                <p>MentorMonkey is a web application that allows web developers to connect and help each other when they get stuck. It is designed to encourage mentorship between new developers and those with more experience in the field. However, even seasoned developers may need help from time to time! The user creates an account by selecting a username and password, and is able to log in for each session. Then, they are taken to their dashboard, which shows them who is online and available to chat. Users can choose to become mentors by clicking the button 'Add me to the mentor list!'. They are immediately taken to a chatroom where they will be notified when a mentee enters to ask them for help. The idea behind the app is to create a space where mentors and mentees can receive and give assistance on coding questions in real time, rather than having to work with a set schedule or wait for an appointment. It solves the problem that many of us developers often face - being alone when something suddenly stops working in our code!
+                <p>Go Girl is a social media web application designed to be developed into a progressive web app (PWA) for mobile devices. The app provides a safe online space for solo female travelers, allowing them to connect with friends and family without jeopardizing their safety. Go Girl features a secure dashboard where users can post images, messages, and updates about their travels. The dashboard includes a link to WAYZE to ensure easy access to GPS navigation. For future development, an emergency button will allow users to quickly comunicate with local authorities and emergency contacts. We designed Go Girl mobile-first, as our users will primarily be 'on the go.' 
+                </p>
+                <p>What makes Go Girl unique is its focus on social media. Many other apps on the market today with the same target user focus on providing emergency services. While this is important, it ignores the social media component of the problem. There have been many incidences of female travelers being tracked by predators because of their social media posts, which makes providing secure apps even more important. We used Google OAuth 2.0 for our secure login, along with AWS-S3 to store our images and MongoDB for our database.  
                 </p>
                 <h2 className='mt-4'>My Role</h2>
                 <p>
-                This was a team effort. I was the designated UX-UI person on this project. I worked in Figma to create wireframes, and I used CSS and bootstrap to create the UI. I used javascript to add features such as a carousel on the front page, and worked on the responsive design for mobile. Focusing mainly on the front-end, I  helped to write user routes and assisted my teammates with login/logout functionality.
+                My role included creating the backend and writing the front-end logic in React to connect the two. I created our database in MongoDB and wrote the Express API routes. I also designed the UI for the user dashboard and wrote the fetch requests to display our images and text data to the page. To do this, I worked closely with my teammates, especially on the AWS-S3 components in order to integrate this new technology into our app. 
                 </p>
                 <h2 className='mt-4'>Technologies</h2>
                 <ul className='tech-list'>
-                    <li>html</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>javascript</li>
-                    <li>node.js</li>
-                    <li>handlebars</li>
-                    <li>mySql</li>
-                    <li>sequelize</li>
-                    <li>socket.io</li>
-                    <li>figma</li>
+                    <li>MongoDB</li>
+                    <li>Mongoose</li>
+                    <li>Express</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Google OAuth 2.0</li>
+                    <li>AWS-S3</li>
+                    <li>Passport</li>
+                    <li>Multer</li>
+                    <li>CSS/Bootstrap</li>
                 </ul>
                 <h2 className='mt-4'>links</h2>
-                <p>Heroku: <a href='https://secret-falls-29125.herokuapp.com/' target='_blank' rel='noreferrer'>https://secret-falls-29125.herokuapp.com</a></p>
-                <p>Github: <a href='https://github.com/caitlinw29/mentor-monkey' target='_blank' rel='noreferrer'>https://github.com/caitlinw29/mentor-monkey</a></p>
+                <p>Github Repo: <a href='https://github.com/rwood022/goGirl.git' target='_blank' rel='noreferrer' className='blue-link'>https://github.com/rwood022/goGirl.git</a></p>
                
                 </div>
             <Footer />

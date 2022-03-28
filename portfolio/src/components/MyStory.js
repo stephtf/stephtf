@@ -6,7 +6,7 @@ function MyStory() {
       <div>
         <Header />
         <div className='body-container'>
-          <h1 className='mt-4'>my story</h1>
+          <h1 className='mt-4'>My Story</h1>
           <p>
             I wanted to learn how to code because I love the idea that technology can solve social problems. I also wanted to have the skills to be able to create any app or website imaginable! I came to this careerpath in a non-traditional way, as I studied the humanities in college. I completed a PhD in history and actually thought I was going to be a history professor! My dissertation explored the impacts of US militarism on women in the Philippines. If you're interested, feel free to check out <a href='https://muse.jhu.edu/article/679424' className='blue-link'>my article</a> on the topic. 
           </p>

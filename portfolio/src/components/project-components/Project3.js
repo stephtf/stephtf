@@ -4,37 +4,36 @@ import Footer from '../Footer';
 const Project3 = () => {
     return (
         <div>
-            <Header />
-            <div className='body-container'>
-                <h1 className='mt-4 mb-4'>mentorMonkey</h1>
-                <img className='project-thumbnails' src='./images/mm-landing.png' alt='the mentorMonkey landing page'/>
-                <h2 className='mt-4'>Project Description</h2>
-                <p>MentorMonkey is a web application that allows web developers to connect and help each other when they get stuck. It is designed to encourage mentorship between new developers and those with more experience in the field. However, even seasoned developers may need help from time to time! The user creates an account by selecting a username and password, and is able to log in for each session. Then, they are taken to their dashboard, which shows them who is online and available to chat. Users can choose to become mentors by clicking the button 'Add me to the mentor list!'. They are immediately taken to a chatroom where they will be notified when a mentee enters to ask them for help. The idea behind the app is to create a space where mentors and mentees can receive and give assistance on coding questions in real time, rather than having to work with a set schedule or wait for an appointment. It solves the problem that many of us developers often face - being alone when something suddenly stops working in our code!
-                </p>
-                <h2 className='mt-4'>My Role</h2>
-                <p>
-                This was a team effort. I was the designated UX-UI person on this project. I worked in Figma to create wireframes, and I used CSS and bootstrap to create the UI. I used javascript to add features such as a carousel on the front page, and worked on the responsive design for mobile. Focusing mainly on the front-end, I  helped to write user routes and assisted my teammates with login/logout functionality.
-                </p>
-                <h2 className='mt-4'>Technologies</h2>
-                <ul className='tech-list'>
-                    <li>html</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>javascript</li>
-                    <li>node.js</li>
-                    <li>handlebars</li>
-                    <li>mySql</li>
-                    <li>sequelize</li>
-                    <li>socket.io</li>
-                    <li>figma</li>
-                </ul>
-                <h2 className='mt-4'>links</h2>
-                <p>Heroku: <a href='https://secret-falls-29125.herokuapp.com/' target='_blank' rel='noreferrer'>https://secret-falls-29125.herokuapp.com</a></p>
-                <p>Github: <a href='https://github.com/caitlinw29/mentor-monkey' target='_blank' rel='noreferrer'>https://github.com/caitlinw29/mentor-monkey</a></p>
-               
-                </div>
-            <Footer />
-        </div>
+        <Header />
+        <div className='body-container'>
+            <h1 className='mt-4 mb-4'>historiography</h1>
+            <img className='project-hero' src='./images/historiography-hero.png' alt='the mentorMonkey landing page'/>
+            <h2 className='mt-4'>Project Description</h2>
+            <p>Historiography is a note taker and organizer that allows historians to quickly review their notes and easily keep track of the books they have read. With academic historians as the target user, the app features a unique login that displays only the notes in one's collection. It also allows the user to highlight important notes and it automatically keeps track of one's sub-disciplinary fields based on each entry. Historiography features a minimalist UI to ease usability and provide a clean and organized feel.
+            </p>
+            <h2 className='mt-4'>My Role</h2>
+            <p>
+            This was my very first solo full-stack project. I built it from start to finish beginning with centering the user's needs. As someone trained in academic history, I felt that this was the kind of app that would have made my life so much easier back when I was studying for my exams and writing my dissertation. I rechanneled my empathy for the user's pain points and built a simple app that could be further developed into a specialized product for scholars and university students. 
+            </p>
+            <h2 className='mt-4'>Technologies</h2>
+            <ul className='tech-list'>
+                <li>SQL</li>
+                <li>Sequelize</li>
+                <li>Express</li>
+                <li>Handlebars</li>
+                <li>Node.js</li>
+                <li>Javascript</li>
+                <li>CSS/Bootstrap</li>
+                <li>Bcrypt</li>
+                <li>Express-session</li>
+            </ul>
+            <h2 className='mt-4'>links</h2>
+            <p>Heroku: <a href='https://historiography.herokuapp.com' target='_blank' rel='noreferrer' className='blue-link'>https://historiography.herokuapp.com</a></p>
+            <p>Github Repo: <a href='https://github.com/stephtf/historiography' target='_blank' rel='noreferrer' className='blue-link'>https://github.com/stephtf/historiography</a></p>
+           
+            </div>
+        <Footer />
+    </div>
     )
 }
 

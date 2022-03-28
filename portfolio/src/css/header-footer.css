@@ -33,7 +33,10 @@ nav {
 .headerlink-container {
     list-style: none;
     text-align: center;
-    padding-left: 0;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-color: rgb(189, 206, 230);
 }
 
 /* contact links */

@@ -23,7 +23,6 @@ body {
 }
 
 
-
 /* container width for whole site */
 .body-container {
   margin-left: 25px;
@@ -57,4 +56,22 @@ h2 {
 
 p {
   font-size: 20px;
+}
+
+
+/* tablet size */
+@media screen and (min-width: 505px) {
+  .body-container {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+}
+
+
+/* desktop size */
+
+@media screen and (min-width: 1000px) {
+  .body-container {
+    max-width: 800px;
+  }
 }
