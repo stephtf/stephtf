@@ -1,0 +1,25 @@
+
+.headshot {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#resume-btn {
+    background-color: var(--blue);
+    color: white;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#story-btn {
+    background-color: var(--blue);
+    color: white;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    opacity: 95%;
+}

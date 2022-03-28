@@ -1,0 +1,64 @@
+/* borders */
+.site-top-border {
+    border-top: 15px solid var(--blue);
+    margin: 0px -100px 0px;
+}
+
+.site-bottom-border {
+    border-bottom: 15px solid var(--blue);
+    margin: 0px -100px 0px;
+
+}
+
+/* navigation bar */
+nav {
+    background-color: aliceblue;
+    width: 100%;
+    height: 110px;
+}
+
+.logo-container {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.img-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* headerlinks */
+.headerlink-container {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+/* contact links */
+.icons-container img {
+    max-width: 20px;
+    max-height: 20px;
+    margin-bottom: 25px;
+}
+
+.social-icons {    
+    margin-left: 9px; 
+    margin-right: 9px;
+}
+
+/* hamburger button */
+.hamburger {
+    position: absolute;
+    top: 43px;
+    right: 40px;
+    width: 35px; 
+    height: 25px;
+}
+
+.hamburger .bar {
+    height: 6px; 
+    background-color: var(--blue);
+    margin-bottom: 5px;
+}

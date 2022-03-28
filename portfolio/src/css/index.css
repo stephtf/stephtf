@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap);
+
+:root {
+  --gray: #666B72;
+  --black: #000000;
+  --blue: #3253B6;
+}
+
+/* no underline for 'a' tags */
+.link-styles {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+}
+
+/* container width for whole site */
+.body-container {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/* titles */
+.title {
+  color: var(--blue);
+  font-family: 'Raleway';
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-family: 'Lato';
+  color: black;
+  font-size: 16px;
+}
+
+h1 {
+  color: var(--blue);
+  font-family: 'Lato';
+}
+
+h2 {
+  color: var(--blue);
+  font-family: 'Lato';
+}
+
+p {
+  font-size: 20px;
+}
