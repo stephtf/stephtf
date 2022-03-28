@@ -4,9 +4,22 @@
 
 .project-thumbnails {
     width: 100%;
+    box-shadow: 1px 1px 3px var(--gray);
+    margin-bottom: 5px;
 }
 
 
 .last-project {
     margin-bottom: 40px;
 }
+
+/* formatting of the technologies list */
+.tech-list {
+    padding-left: 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+li {
+    list-style: none;
+  }

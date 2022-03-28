@@ -2,7 +2,7 @@
 function Footer() {
     return (
       <div>
-        <div class="site-bottom-border"></div>
+        <div className="site-bottom-border"></div>
       </div>
     );
   }
