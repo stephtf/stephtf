@@ -7,23 +7,22 @@ function Projects() {
       <div>
         <Header />
         <div className='body-container'>
-          <h1 className='mt-4 text-center'>Web Development</h1>
           <div className='project-res mx-auto'>
             <NavLink to='/project-1' className='link-styles'>
               <img className='project-thumbnails mt-4' src='images/gogirl-thumb.png' alt='a woman working on a computer'/>
-              <h2 className='mb-4 project-titles'>Go Girl</h2>
+              <p className='mb-4 project-titles'>Go Girl</p>
             </NavLink>
             <NavLink to='/project-2' className='link-styles'>
               <img className='project-thumbnails mt-4' src='images/mm-thumb.png' alt='a woman working on a computer'/>
-              <h2 className='mb-4 project-titles'>mentorMonkey</h2>
+              <p className='mb-4 project-titles'>mentorMonkey</p>
             </NavLink>
             <NavLink to='/project-3' className='link-styles'>
               <img className='project-thumbnails mt-4' src='images/historiography-thumb.png' alt='the sign-in page of historiography'/>
-              <h2 className='mb-4 project-titles'>historiography</h2>
+              <p className='mb-4 project-titles'>historiography</p>
             </NavLink>
             <NavLink to='/project-4' className='link-styles'>
               <img className='project-thumbnails mt-4' src='images/urban-thumb.jpg' alt='a mobile phone screen displaying an online dictionary'/>
-              <h2 className='last-project project-titles'>Ultimate Urban Dictionary</h2>
+              <p className='last-project project-titles'>Ultimate Urban Dictionary</p>
             </NavLink>
           </div>
         </div>

@@ -6,7 +6,19 @@
   --blue: #3253B6;
 }
 
-/* no underline for 'a' tags */
+/* container width for whole site */
+/* note: min-height is what keeps footer at bottom by calculating the height of the rest of the site minus footer + header */
+.body-container {
+  margin-left: 25px;
+  margin-right: 25px;
+  min-height: calc(100vh - 210px);
+}
+
+body {
+  margin: 0;
+}
+
+/* to remove underline for 'a' tags */
 .link-styles {
   text-decoration: none;
   color: var(--black);
@@ -18,19 +30,8 @@
   text-decoration: none;
 }
 
-body {
-  margin: 0;
-}
-
-
-/* container width for whole site */
-.body-container {
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-/* titles */
-.title {
+/* logo titles */
+.logo-title {
   color: var(--blue);
   font-family: 'Raleway';
   margin: 0;
@@ -38,26 +39,26 @@ body {
   font-weight: bold;
 }
 
-.subtitle {
+.logo-subtitle {
   font-family: 'Lato';
   color: black;
   font-size: 16px;
 }
 
+/* other text */
 h1 {
   color: var(--blue);
   font-family: 'Lato';
 }
 
-h2 {
+h3 {
   color: var(--blue);
   font-family: 'Lato';
 }
 
 p {
-  font-size: 20px;
+  font-size: 17px;
 }
-
 
 /* tablet size */
 @media screen and (min-width: 505px) {
@@ -65,13 +66,13 @@ p {
     margin-right: 100px;
     margin-left: 100px;
   }
+
 }
 
-
 /* desktop size */
-
 @media screen and (min-width: 1000px) {
   .body-container {
-    max-width: 800px;
+    margin-left: calc(50vw - 400px);
+    margin-right: calc(50vw - 400px);
   }
 }

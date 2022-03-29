@@ -18,8 +18,8 @@ const Header = () => {
                     <img className='img-logo' alt='favicon logo' src='/images/favi.png'/></NavLink>
                     <div>
                         <NavLink to='/' className='link-styles'>
-                        <p className='title'>Steph Fajardo</p> 
-                        <p className='subtitle'>Full Stack Web Developer</p>
+                        <p className='logo-title'>Steph Fajardo</p> 
+                        <p className='logo-subtitle'>Full Stack Web Developer</p>
                         </NavLink>
                     </div>
                 </div>

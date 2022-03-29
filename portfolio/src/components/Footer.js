@@ -2,7 +2,9 @@
 function Footer() {
     return (
       <div>
-        <div className="site-bottom-border"></div>
+        <footer className='footer--pin'>
+            <small>Ⓒ Steph Fajardo 2022</small>
+        </footer>
       </div>
     );
   }
