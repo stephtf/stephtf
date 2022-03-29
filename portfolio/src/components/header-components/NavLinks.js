@@ -5,10 +5,10 @@ const NavLinks = () => {
         <div> 
             <ul className='nav-link-container'>
                 <li>
-                    <NavLink className='nav-link-styles' to='/'>About</NavLink>
+                    <NavLink className='nav-link-styles'  activeClassName='active' to='/'>About</NavLink>
                 </li>
                 <li>
-                    <NavLink className='nav-link-styles' to='/projects'>Projects</NavLink>
+                    <NavLink className='nav-link-styles' activeClassName='active' to='/projects'>Projects</NavLink>
                 </li>
             </ul>
         </div>

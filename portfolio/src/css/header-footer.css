@@ -66,6 +66,12 @@ nav {
     margin-right: 40px;
 }
 
+.active {
+    color: var(--blue);
+    border-bottom: 3px solid var(--blue);
+    padding-bottom: 3px;
+}
+
 /* contact links */
 .icons-container img {
     max-width: 20px;
