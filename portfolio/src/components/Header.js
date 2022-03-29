@@ -1,12 +1,16 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import HeaderLinks from './header-components/HeaderLinks';
+import HamburgerLinks from './header-components/HamburgerLinks';
+import { useMediaQuery } from 'react-responsive';
+import NavLinks from './header-components/NavLinks';
 
 
 const Header = () => {
 
     const [toggle, setToggle] = useState(false);
     const handleButtonClick = () => setToggle(toggle => !toggle);
+
+    const largeScreen = useMediaQuery({ query: '(min-width: 800px)' })
 
     return (
         <div>
@@ -22,17 +26,17 @@ const Header = () => {
                         <p className='logo-subtitle'>Full Stack Web Developer</p>
                         </NavLink>
                     </div>
-                </div>
                 
+                { largeScreen ? <NavLinks /> :
                 <NavLink to='#' className='hamburger' onClick={handleButtonClick}> 
                         <div className='bar'></div>
                         <div className='bar'></div>
                         <div className='bar'></div>
-                </NavLink>
-                
+                </NavLink>}
+                </div>
             </nav>
 
-            { toggle && <HeaderLinks />}
+            { toggle && <HamburgerLinks />}
         </div>
     )
 }

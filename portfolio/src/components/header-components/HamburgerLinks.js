@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
 
-const HeaderLinks = () => {
+const HamburgerLinks = () => {
 
     return (
         <div> 
-            <ul className='headerlink-container'>
+            <ul className='hamburgerlink-container'>
                 <li className='mb-3 mt-3'>
                     <NavLink className='link-styles' to='/'>About</NavLink>
                 </li>
@@ -16,4 +16,4 @@ const HeaderLinks = () => {
     )
 }
 
-export default HeaderLinks;
+export default HamburgerLinks;

@@ -41,13 +41,28 @@ nav {
 }
 
 /* menu for 'about' and 'projects' */
-.headerlink-container {
+.hamburgerlink-container {
     list-style: none;
     text-align: center;
     padding: 0;
     padding-top: 15px;
     padding-bottom: 25px;
-    background-color: rgb(189, 206, 230);
+    background-color: rgb(217, 228, 244);
+}
+
+.nav-link-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 50px;
+    right: 30px;
+}
+
+.nav-link-styles {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    margin-right: 40px;
 }
 
 /* contact links */
