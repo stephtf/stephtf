@@ -6,14 +6,14 @@ const Project2 = () => {
         <div>
             <Header />
             <div className='body-container'>
-                <h1 className='mt-4 mb-4 text-center'>mentorMonkey</h1>
+                <h1 className='mt-4 mb-4 text-center'>MentorMonkey</h1>
                 <img className='project-hero' src='./images/mm-hero.png' alt='the mentorMonkey landing page'/>
                 <h3 className='mt-4'>Project Description</h3>
-                <p>MentorMonkey is a web application that allows web developers to connect and help each other when they get stuck. It is designed to encourage mentorship between new developers and those with more experience in the field. However, even seasoned developers may need help from time to time! The user creates an account by selecting a username and password, and is able to log in for each session. Then, they are taken to their dashboard, which shows them who is online and available to chat. Users can choose to become mentors by clicking the button 'Add me to the mentor list!'. They are immediately taken to a chatroom where they will be notified when a mentee enters to ask them for help. The idea behind the app is to create a space where mentors and mentees can receive and give assistance on coding questions in real time, rather than having to work with a set schedule or wait for an appointment. It solves the problem that many of us developers often face - being alone when something suddenly stops working in our code!
+                <p><i>MentorMonkey</i> is an application that allows web developers to connect and help each other when they get stuck. It is designed to encourage mentorship between new developers and those with more experience in the field. After logging in, users are taken to a unique dashboard, which shows them who is online and available to chat. <i>MentorMonkey</i> creates a space where mentors and mentees can receive and give assistance on coding questions in real time rather than having to work with a set schedule or wait for an appointment. It solves the problem that many developers often face - being alone when something suddenly stops working in our code!
                 </p>
                 <h3 className='mt-4'>My Role</h3>
                 <p>
-                This was a team effort. I was the designated UX-UI person on this project. I worked in Figma to create wireframes, and I used CSS and bootstrap to create the UI. I used javascript to add features such as a carousel on the front page, and worked on the responsive design for mobile. Focusing mainly on the front-end, I  helped to write user routes and assisted my teammates with login/logout functionality.
+                I was the designated UX-UI person on this project. I worked in Figma to create wireframes, and I used CSS and Bootstrap to bring the design to life. I also worked on features such as the carousel on the landing page, and I worked on creating a responsive design for mobile. 
                 </p>
                 <h3 className='mt-4'>Technologies</h3>
                 <ul className='tech-list'>
