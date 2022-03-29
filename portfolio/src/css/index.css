@@ -28,6 +28,7 @@ body {
 .blue-link {
   color: var(--blue);
   text-decoration: none;
+  word-break: break-all; 
 }
 
 /* logo titles */
