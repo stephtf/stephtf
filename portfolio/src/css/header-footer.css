@@ -1,7 +1,8 @@
 /* borders */
 .site-top-border {
     border-top: 15px solid var(--blue);
-    margin: 0px -100px 0px;
+    margin: 0;
+    width: 100vw;
 }
 
 footer {
