@@ -1,25 +1,11 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on goGirl, an app for solo female travelers 
-- 🌱 I’m currently learning REACT and graphQL
+- 🔭 I’m currently working on a food blog as a personal project 
+- 🌱 I’m currently deepening my knowledge of REACT
 - 👯 I’m looking to collaborate on full stack projects! 
 - 🤔 I’m looking for help with understanding Redux ☺️
 - 💬 Ask me about my career goals 
-- 📫 How to reach me: stephfajardo@gatech.edu
+- 📫 How to reach me: stfajardo@gmail.com
 - 😄 Pronouns: she/her
-- ⚡ Fun fact: I have two bichons! 
+- ⚡ Fun fact: I have two bichons! 🐻‍❄️ 🐻‍❄️  
 
-<!--
-**stephtf/stephtf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
