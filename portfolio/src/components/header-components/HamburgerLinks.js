@@ -6,7 +6,7 @@ const HamburgerLinks = () => {
         <div> 
             <ul className='hamburgerlink-container'>
                 <li className='mb-3 mt-3'>
-                    <NavLink className='link-styles' to='/'>About</NavLink>
+                    <NavLink className='link-styles' to='/'>Home</NavLink>
                 </li>
                 <li>
                     <NavLink className='link-styles' to='/projects'>Projects</NavLink>
