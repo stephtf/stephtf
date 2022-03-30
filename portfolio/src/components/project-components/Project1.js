@@ -29,6 +29,7 @@ const Project1 = () => {
                     <li>Passport</li>
                     <li>Multer</li>
                     <li>CSS/Bootstrap</li>
+                    <li>Figma</li>
                 </ul>
                 <h3 className='mt-4'>links</h3>
                 <p>Github Repo: <a href='https://github.com/rwood022/goGirl.git' target='_blank' rel='noreferrer' className='blue-link'>https://github.com/rwood022/goGirl.git</a></p>

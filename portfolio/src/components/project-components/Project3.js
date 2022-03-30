@@ -22,7 +22,7 @@ const Project3 = () => {
                 <li>Express</li>
                 <li>Handlebars</li>
                 <li>Node.js</li>
-                <li>Javascript</li>
+                <li>JavaScript</li>
                 <li>CSS/Bootstrap</li>
                 <li>Bcrypt</li>
                 <li>Express-session</li>

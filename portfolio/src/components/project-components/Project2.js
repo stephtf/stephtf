@@ -17,16 +17,15 @@ const Project2 = () => {
                 </p>
                 <h3 className='mt-4'>Technologies</h3>
                 <ul className='tech-list'>
-                    <li>html</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>javascript</li>
-                    <li>node.js</li>
-                    <li>handlebars</li>
-                    <li>mySql</li>
-                    <li>sequelize</li>
-                    <li>socket.io</li>
-                    <li>figma</li>
+                    <li>HTML</li>
+                    <li>CSS/Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>Node.js</li>
+                    <li>Handlebars</li>
+                    <li>MySQL</li>
+                    <li>Sequelize</li>
+                    <li>Socket.io</li>
+                    <li>Figma</li>
                 </ul>
                 <h3 className='mt-4'>links</h3>
                 <p>Heroku: <a href='https://secret-falls-29125.herokuapp.com/' target='_blank' rel='noreferrer' className='blue-link'>https://secret-falls-29125.herokuapp.com</a></p>
