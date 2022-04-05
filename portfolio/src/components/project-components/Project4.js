@@ -25,7 +25,7 @@ const Project4 = () => {
                     <li>Giphy API</li>
                     <li>Figma</li>
                 </ul>
-                <h3 className='mt-4'>links</h3>
+                <h3 className='mt-4'>Links</h3>
                 <p>Github Pages: <a href='https://rwashi690.github.io/Urban_Dictionary_and_Memes' target='_blank' rel='noreferrer' className='blue-link'>https://rwashi690.github.io/Urban_Dictionary_and_Memes</a></p>
                 <p>Github Repo: <a href='https://github.com/rwashi690/Urban_Dictionary_and_Memes' target='_blank' rel='noreferrer' className='blue-link'>https://github.com/rwashi690/Urban_Dictionary_and_Memes</a></p>
                 </div>

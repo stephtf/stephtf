@@ -31,7 +31,7 @@ const Project1 = () => {
                     <li>CSS/Bootstrap</li>
                     <li>Figma</li>
                 </ul>
-                <h3 className='mt-4'>links</h3>
+                <h3 className='mt-4'>Links</h3>
                 <p>Github Repo: <a href='https://github.com/rwood022/goGirl.git' target='_blank' rel='noreferrer' className='blue-link'>https://github.com/rwood022/goGirl.git</a></p>
                
                 </div>

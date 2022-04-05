@@ -27,7 +27,7 @@ const Project2 = () => {
                     <li>Socket.io</li>
                     <li>Figma</li>
                 </ul>
-                <h3 className='mt-4'>links</h3>
+                <h3 className='mt-4'>Links</h3>
                 <p>Heroku: <a href='https://secret-falls-29125.herokuapp.com/' target='_blank' rel='noreferrer' className='blue-link'>https://secret-falls-29125.herokuapp.com</a></p>
                 <p>Github Repo: <a href='https://github.com/caitlinw29/mentor-monkey' target='_blank' rel='noreferrer' className='blue-link'>https://github.com/caitlinw29/mentor-monkey</a></p>
                

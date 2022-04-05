@@ -27,7 +27,7 @@ const Project3 = () => {
                 <li>Bcrypt</li>
                 <li>Express-session</li>
             </ul>
-            <h3 className='mt-4'>links</h3>
+            <h3 className='mt-4'>Links</h3>
             <p>Heroku: <a href='https://historiography.herokuapp.com' target='_blank' rel='noreferrer' className='blue-link'>https://historiography.herokuapp.com</a></p>
             <p>Github Repo: <a href='https://github.com/stephtf/historiography' target='_blank' rel='noreferrer' className='blue-link'>https://github.com/stephtf/historiography</a></p>
            
