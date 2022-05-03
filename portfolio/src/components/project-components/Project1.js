@@ -6,33 +6,32 @@ const Project1 = () => {
         <div>
             <Header />
             <div className='body-container'>
-                <h1 className='mt-4 mb-4 text-center'>Go Girl</h1>
-                <img className='project-hero' src='./images/gogirl-hero.png' alt='the Go Girl dashboard'/>
+                <h1 className='mt-4 mb-4 text-center'>Fil-Am Food Blog</h1>
+                <img className='project-hero' src='./images/foodblog.png' alt='homepage of Fil-Am Food Blog'/>
                 <h3 className='mt-4'>Project Description</h3>
-                <p><i>Go Girl</i> is a social media web application designed to be developed into a progressive web app (PWA) for mobile devices. The app provides a safe online space for solo female travelers, allowing them to connect with friends and family without jeopardizing their safety. <i>Go Girl</i> features a secure dashboard where users can post images, messages, and updates about their travels. The dashboard includes a link to WAZE to ensure easy access to GPS navigation. For future development, an emergency button will allow users to quickly comunicate with local authorities and emergency contacts. We designed <i>Go Girl</i> mobile-first, as our users will primarily be "on the go."
+                <p><i>Fil-Am Food Blog</i> features Filipino American food and drink recipes, as well as personal stories related to the Philippines and eating delicious food! My fiancé, Gian, and I came up with the idea for the blog, because we wanted to share our passion for Filipino food, and we also wanted a place to preserve our family recipes. 
                 </p>
-                <p>What makes <i>Go Girl</i> unique is its focus on social media. Many other apps on the market today with the same target user focus on providing emergency services. While this is important, it ignores the social media component of the problem. There have been many incidences of female travelers being tracked by predators because of their social media posts, which makes providing secure apps even more important. We used Google OAuth 2.0 for our secure login, along with AWS-S3 to store our images and MongoDB for our database.  
+                <p>What makes <i>Fil-Am Food Blog</i> unique is the user interface. We wanted the recipes to come first because who likes scrolling all the way down to find the recipe they are looking for? For future development, we also plan to build features such as adding ingredients into an online shopping cart, which would make cooking our recipes super convenient!  
                 </p>
                 <h3 className='mt-4'>My Role</h3>
                 <p>
-                My role included creating the backend and writing the front-end logic in React to connect the two. I created our database in MongoDB and wrote the Express API routes. I also designed the UI for the user dashboard and wrote the fetch requests to display our images and text data to the page. To do this, I worked closely with my teammates, especially on the AWS-S3 components in order to integrate this new technology into our app. 
+                My role included designing and building the site from start to finish. While Gian and I both create the content for the blog, I am responsible for all the tech stuff from drawing the wireframes in Figma to writing the front and backend code. 
                 </p>
                 <h3 className='mt-4'>Technologies</h3>
                 <ul className='tech-list'>
                     <li>MongoDB</li>
                     <li>Mongoose</li>
-                    <li>Express</li>
+                    <li>GraphQL</li>
                     <li>React</li>
                     <li>Node.js</li>
-                    <li>Google OAuth 2.0</li>
-                    <li>AWS-S3</li>
-                    <li>Passport</li>
-                    <li>Multer</li>
-                    <li>CSS/Bootstrap</li>
+                    <li>CSS</li>
                     <li>Figma</li>
                 </ul>
                 <h3 className='mt-4'>Links</h3>
-                <p>Github Repo: <a href='https://github.com/rwood022/goGirl.git' target='_blank' rel='noreferrer' className='blue-link'>https://github.com/rwood022/goGirl.git</a></p>
+                <p>Check out the website:
+                <a href='https://www.filamfoodblog.com' target='_blank' rel='noreferrer' className='blue-link'> https://www.filamfoodblog.com</a>
+                </p>
+                <p>Github Repo: <a href='https://github.com/stephtf/the-fil-am-food-blog' target='_blank' rel='noreferrer' className='blue-link'>https://github.com/stephtf/the-fil-am-food-blog</a></p>
                
                 </div>
             <Footer />

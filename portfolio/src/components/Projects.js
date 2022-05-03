@@ -9,8 +9,8 @@ function Projects() {
         <div className='body-container'>
           <div className='project-res mx-auto'>
             <NavLink to='/project-1' className='link-styles'>
-              <img className='project-thumbnails mt-4' src='images/gogirl-thumb.png' alt='user timeline post of a puppy in a suitcase'/>
-              <p className='mb-4 project-titles'>Go Girl</p>
+              <img className='project-thumbnails mt-4' src='images/filamblog.png' alt='website logo for Fil-Am Food Blog'/>
+              <p className='mb-4 project-titles'>Fil-Am Food Blog</p>
             </NavLink>
             <NavLink to='/project-2' className='link-styles'>
               <img className='project-thumbnails mt-4' src='images/mm-thumb.png' alt='a woman working on a computer'/>
