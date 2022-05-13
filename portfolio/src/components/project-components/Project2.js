@@ -9,7 +9,9 @@ const Project2 = () => {
                 <h1 className='mt-4 mb-4 text-center'>MentorMonkey</h1>
                 <img className='project-hero' src='./images/mm-hero.png' alt='the mentorMonkey landing page'/>
                 <h3 className='mt-4'>Project Description</h3>
-                <p><i>MentorMonkey</i> is an application that allows web developers to connect and help each other when they get stuck. It is designed to encourage mentorship between new developers and those with more experience in the field. After logging in, users are taken to a unique dashboard, which shows them who is online and available to chat. <i>MentorMonkey</i> creates a space where mentors and mentees can receive and give assistance on coding questions in real time rather than having to work with a set schedule or wait for an appointment. It solves the problem that many developers often face - being alone when something suddenly stops working in our code!
+                <p><i>MentorMonkey</i> is a web application that encourages mentorship between new developers and those with more experience in the field. This app originated as a group project in my coding bootcamp at Georgia Tech, where we wanted to focus on new and experienced developers as our target user. 
+                </p>
+                <p>What makes <i>MentorMonkey</i> unique is that it allows users to seek out help in real time rather than having to work with a set schedule or wait for an appointment. After logging in to the website, users are taken to a unique dashboard which shows them who is online and available to chat. It solves the problem that many developers often face: being alone when something suddenly stops working in our code!
                 </p>
                 <h3 className='mt-4'>My Role</h3>
                 <p>
