@@ -23,7 +23,7 @@ const Header = () => {
                     <div>
                         <NavLink to='/' className='link-styles'>
                         <p className='logo-title'>Steph Fajardo</p> 
-                        <p className='logo-subtitle'>Full Stack Web Developer</p>
+                        <p className='logo-subtitle'>Software Engineer</p>
                         </NavLink>
                     </div>
                 

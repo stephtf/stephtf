@@ -23,6 +23,10 @@
     opacity: 95%;
 }
 
+.button-links {
+    margin-top: 22px;
+}
+
 /* tablet size */
 @media screen and (min-width: 505px) {
     .about-res {
