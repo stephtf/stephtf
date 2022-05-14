@@ -10,7 +10,7 @@ function Projects() {
           <div className='project-res mx-auto'>
             <NavLink to='/project-1' className='link-styles'>
               <img className='project-thumbnails mt-4' src='images/filamblog.png' alt='website logo for Fil-Am Food Blog'/>
-              <p className='mb-4 project-titles'>Fil-Am Food Blog</p>
+              <p className='mb-4 project-titles'>Fil-Am Foodie</p>
             </NavLink>
             <NavLink to='/project-2' className='link-styles'>
               <img className='project-thumbnails mt-4' src='images/mm-thumb.png' alt='a woman working on a computer'/>
