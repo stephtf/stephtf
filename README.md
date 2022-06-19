@@ -10,3 +10,4 @@
 - 👩🏻‍💻 Tech skills: HTML5, CSS, Javascript, Node.js, Handlebars, React, Express, RESTful
 API, GraphQL, Sql, MySQL, MongoDB, Mongoose, Git/Github, Heroku 
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stephtf)](https://github.com/stephtf/github-readme-stats)
