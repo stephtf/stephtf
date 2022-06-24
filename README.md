@@ -7,5 +7,5 @@
 - 📫 How to reach me: stfajardo@gmail.com 
 - 😄 Pronouns: she/her
 - ⚡ Fun fact: I have two bichons! 🐻‍❄️ 🐻‍❄️  
-- 👩🏻‍💻 Tech skills: HTML5, CSS, Javascript, Node.js, Handlebars, React, Express, RESTful
-API, GraphQL, Sql, MySQL, MongoDB, Mongoose, Git/Github, Heroku 
+- 👩🏻‍💻 Tech skills: HTML5, CSS, Javascript, Node.js, Handlebars, React, Angular, Express, RESTful
+API, GraphQL, MySQL, MongoDB 
