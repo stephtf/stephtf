@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 const Projects = () => {
   return (
     <div className='proj-bg'>
+        <h3 className='project-titles'>Projects</h3>
         <div className='project-res mx-auto'>
           <NavLink to='/project-1' className='link-styles'>
             <img className='project-thumbnails mt-4' src='images/filamblog.png' alt='website logo for Fil-Am Food Blog' />

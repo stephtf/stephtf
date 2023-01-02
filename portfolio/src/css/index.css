@@ -20,12 +20,9 @@ body {
   overflow-x: hidden;
 }
 
-.mt-50 {
-  margin-top: 100px;
-}
-
-.pb-75 {
-  padding-bottom: 75px;
+.pt-50 {
+  padding-top: 50px;
+  margin-top: 25px;
 }
 
 /* to remove underline for 'a' tags */

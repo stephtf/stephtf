@@ -16,8 +16,9 @@ const NavLinks = () => {
               <NavLink className='nav-link-styles' to={link.url}>{link.name}
               </NavLink>
             </li>
-          )})}
-             <a className='nav-link-styles' href="./assets/resume.pdf" target="_blank">Resume</a>
+          )
+        })}
+        <a className='nav-link-styles' href="./assets/resume.pdf" target="_blank">Resume</a>
       </ul>
     </div>
   )

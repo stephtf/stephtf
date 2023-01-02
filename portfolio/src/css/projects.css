@@ -17,6 +17,7 @@ color: var(--blue);
 .proj-bg {
   background-color: rgb(247, 248, 253) !important;
   margin-top: 50px;
+  padding-top: 25px;
 }
 
 /* image for individual project page */
