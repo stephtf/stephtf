@@ -1,44 +1,48 @@
+.about-res {
+  padding-top: 50px;
+}
+
 .headshot {
-    width: 100%;
-    margin: 0;
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 #resume-btn {
-    background-color: var(--blue);
-    color: white;
-    margin-right: 15px;
-    margin-bottom: 15px;
+  background-color: var(--blue);
+  color: white;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 #story-btn {
-    background-color: var(--blue);
-    color: white;
-    margin-bottom: 15px;
+  background-color: var(--blue);
+  color: white;
+  margin-bottom: 15px;
 }
 
 .btn:hover {
-    opacity: 95%;
+  opacity: 95%;
 }
 
 .button-links {
-    margin-top: 22px;
+  margin-top: 22px;
 }
 
 /* tablet size */
 @media screen and (min-width: 505px) {
-    .about-res {
-        display: flex;
-        flex-direction: row-reverse;
-        margin-top: 25px;
-    }
+  .about-res {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 25px;
+  }
 
-    .headshot {
-        padding-left: 25px;
-        padding-right: 15px;
-        width: 300px;
-        height: 100%;
-    }
+  .headshot {
+    padding-left: 25px;
+    padding-right: 15px;
+    width: 300px;
+    height: 100%;
+  }
 }
